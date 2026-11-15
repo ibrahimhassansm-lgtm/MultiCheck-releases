@@ -1,0 +1,9 @@
+version=1.15.0
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.15.0/MultiCheck_R2023.dll|cf7f39097ce0e2bc4b46a959719c20b3d837baafc85b3d9526328eb29f9353a9
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.15.0/MultiCheck_R2024.dll|be99fe4db9ef55b498d34ec381c57d842c600634c2ecb306c41daca648ba77f2
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.15.0/MultiCheck_R2025.dll|97e04819ea37dca92da8467e8b3f5169a1f65cea6a7321eead71e51eb90eec31
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.15.0/MultiCheck_R2026.dll|3d9a694324aa230b595e6722c0558e3036f3be65ac52afa664fc75e72125e1df
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.15.0/MultiCheck_R2027.dll|939ea4fd9f33b255d889863d2404b7d50c1253f81f691b4e5450a26fd98063d1
+note=Automatic updates from GitHub: new versions download silently in the background (20 s after Revit opens, then every few hours) and are used on the next click of Multi Check.
+note=After an update, a line under the header shows "Updated to vX · What's new" once.
+note=Safe updates: every download is checked (SHA-256, name and version); a cut-off download is never used; a version that won't load is skipped and the previous one opens instead.
