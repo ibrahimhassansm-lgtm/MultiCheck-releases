@@ -1,7 +1,8 @@
-version=1.17.2
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2023.dll|7ea7f626779a8f1d7ca85adcfb35221c43f0925ce8b6cae67b350df377c3acd2
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2024.dll|b899a6c507896655dd5638d12f2c7884524ed43d3c7cd2b75dae79fb654949c0
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2025.dll|629e1c7f26f7bffeccb4073be57445c89e291e4f451bb0b55fa432877ff1e2f2
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2026.dll|918ba7f033dc21643eb1ace3d8d8bb42ced804f1546eebed8ab65f9ff4e95f59
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2027.dll|917f93b178ee808683d23a8a5b66df0da73ef3a26b39b62ca5c0456d4af16255
-note=Batch check opens every model normally (no detach): open, read the data, close without saving or syncing.
+version=1.18.0
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2023.dll|e90adc8f5664569a86425f7fa4735a64a2f4f8e181eb4d155fd82692e9f66786
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2024.dll|d1ef66543a97664f2d4ce0a838e6a96d54d0c5851f0121c20f7b62f57b66bc4b
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2025.dll|0e93aaf93450c6d4d02f2677022e515bc25fbbf01fd1ced8f3046bdf1dcfa233
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2026.dll|15c880f7ede5af668237166169f0ff6a32ff9bd7dede54d814cd222bc7043d61
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2027.dll|a20081bfc6076d8f3ec2fa84a70be9ddd839554ea169dff685956ca57f464498
+note=The last check of every model is now saved (manual runs and Batch check) and kept after Revit closes.
+note=New "Model" list in the results: pick any checked model to see its last results in the Multi Check window – no need to open it. Opening a model still switches to its results automatically.
