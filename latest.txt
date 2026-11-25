@@ -1,10 +1,7 @@
-version=1.16.0
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.0/MultiCheck_R2023.dll|62a049b53b79fe1bc2fc6e3b0655e9b7fb789dc16388044478f450aa6b0ebfa3
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.0/MultiCheck_R2024.dll|75118367b0ac1fcd0033cbff9460491e10df2c9c0bf3394f36e073f6e44ed57d
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.0/MultiCheck_R2025.dll|f5307665a1281101ac37dfd65266f91c99ad8685a641b20db0a8a283ff9cce1d
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.0/MultiCheck_R2026.dll|c1030c364a87d0952bd4f670cabaa70c821b29c3e038fe87a1492cc250f7646a
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.0/MultiCheck_R2027.dll|277a2a7831722c74a7986d308bfb20b78d93c37b7d76ee0fef41e07d62ecdf43
-note=New Batch check: pick several models (.rvt files, or every model linked into the active model – ACC models included) and Multi Check opens each one in the background, runs the checks, saves its report and closes it, one after another.
-note=Progress shows the current model, how many are done and any errors; Stop finishes the current model and stops.
-note=Models are never changed: workshared and ACC models open detached (worksets kept, nothing written to the central or cloud model), every model closes without saving, and Revit pop-ups are answered automatically.
-note=Reports per model plus a batch summary (HTML and CSV) in Documents\MultiCheck\Batch reports; the results also show in the Multi Check window when that model is opened later.
+version=1.16.1
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2023.dll|d93dd68501505607fae83f2c2878de64d457afd8f40d56681e1bb29de83e6d25
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2024.dll|fcabbb558ff3be238736363759b7827b7df2688456b7a9cc1e08e3b7d2a2dce4
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2025.dll|9620ca34372ee2a3b5e1f03672468b8bd4ad6ae1260c0840237349933e0233bd
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2026.dll|26098c4d01cc230dcb66d1d2554789a3d0b696342e0bb71e0de2753ebd6e1d39
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2027.dll|5c4a9e04fa1923376c8a9c6eb4525d274d5514601391358200754a6f6a7f53db
+note=The Multi Check button now works with no model open (Revit start screen), so Batch check can be started without opening any model first. Needs the setup once (loader v2.5.0).
