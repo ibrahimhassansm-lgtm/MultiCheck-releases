@@ -1,9 +1,7 @@
-version=1.17.0
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2023.dll|87b6e4cb7c0f1adf1e6af585c32f6c44b87d14623c7865c0e3c9f5e66ce7d26e
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2024.dll|e742307b5cf6ad9c6a431aaac91970e8ec5beaa943aa97e42690fe26da520976
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2025.dll|617324448ccbcdc3281dc6a3d65aa2ce917775ceeaf51422ec1fb78d99e81381
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2026.dll|24cd92eea5ad4438dcfa8ed60f47a17af330e70388cc133bc393f9e7fd694369
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2027.dll|c51bbf47bbddef0c4a25599f2cbae20599e862987a1d1a9e2f59c477abda89b3
-note=Batch check: pick models from your ACC project tree (Desktop Connector folder), like Smart Linker – tick models or whole folders.
-note=Cloud models are opened from ACC (detached, never changed); online-only files are downloaded only to read their cloud ID, then the local copy is freed.
-note=Uses the same cloud-model index as Smart Linker; the refresh button re-reads Revit's cloud cache.
+version=1.17.1
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2023.dll|06695611315a586fdd793c4918a3fd455466319947f739531bb45c13983b398b
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2024.dll|14274fdfbc96d610cd28a9971c16d0a015e9ae5a9b0c720944736ad261e5ff16
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2025.dll|a947f34d5401750620389fe7d2d4748ca5920c0d918bd1c8106aa5b6d6ac4e76
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2026.dll|8930f39d377e111feb507863fbbb134c3072c1432f34d25ffd536f912e3501a2
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2027.dll|4aeace37080bf6beb79df4650c309f82ded2076ea2be8e8f5eca776e905bf4fd
+note=Fix: Batch check failed on ACC models with "Detach option is not valid for cloud model". Cloud models now open normally (all worksets) and are closed without saving or syncing; if your local copy has unsynced changes it is checked as it is, never discarded or synced.
