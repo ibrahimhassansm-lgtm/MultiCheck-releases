@@ -1,7 +1,7 @@
-version=1.17.1
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2023.dll|06695611315a586fdd793c4918a3fd455466319947f739531bb45c13983b398b
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2024.dll|14274fdfbc96d610cd28a9971c16d0a015e9ae5a9b0c720944736ad261e5ff16
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2025.dll|a947f34d5401750620389fe7d2d4748ca5920c0d918bd1c8106aa5b6d6ac4e76
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2026.dll|8930f39d377e111feb507863fbbb134c3072c1432f34d25ffd536f912e3501a2
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.1/MultiCheck_R2027.dll|4aeace37080bf6beb79df4650c309f82ded2076ea2be8e8f5eca776e905bf4fd
-note=Fix: Batch check failed on ACC models with "Detach option is not valid for cloud model". Cloud models now open normally (all worksets) and are closed without saving or syncing; if your local copy has unsynced changes it is checked as it is, never discarded or synced.
+version=1.17.2
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2023.dll|7ea7f626779a8f1d7ca85adcfb35221c43f0925ce8b6cae67b350df377c3acd2
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2024.dll|b899a6c507896655dd5638d12f2c7884524ed43d3c7cd2b75dae79fb654949c0
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2025.dll|629e1c7f26f7bffeccb4073be57445c89e291e4f451bb0b55fa432877ff1e2f2
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2026.dll|918ba7f033dc21643eb1ace3d8d8bb42ced804f1546eebed8ab65f9ff4e95f59
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.2/MultiCheck_R2027.dll|917f93b178ee808683d23a8a5b66df0da73ef3a26b39b62ca5c0456d4af16255
+note=Batch check opens every model normally (no detach): open, read the data, close without saving or syncing.
