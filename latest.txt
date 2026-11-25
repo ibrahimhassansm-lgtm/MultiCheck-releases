@@ -1,8 +1,8 @@
-version=1.18.0
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2023.dll|e90adc8f5664569a86425f7fa4735a64a2f4f8e181eb4d155fd82692e9f66786
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2024.dll|d1ef66543a97664f2d4ce0a838e6a96d54d0c5851f0121c20f7b62f57b66bc4b
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2025.dll|0e93aaf93450c6d4d02f2677022e515bc25fbbf01fd1ced8f3046bdf1dcfa233
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2026.dll|15c880f7ede5af668237166169f0ff6a32ff9bd7dede54d814cd222bc7043d61
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.18.0/MultiCheck_R2027.dll|a20081bfc6076d8f3ec2fa84a70be9ddd839554ea169dff685956ca57f464498
-note=The last check of every model is now saved (manual runs and Batch check) and kept after Revit closes.
-note=New "Model" list in the results: pick any checked model to see its last results in the Multi Check window – no need to open it. Opening a model still switches to its results automatically.
+version=1.19.0
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2023.dll|a5dedb2dff7e8c0695c4b871fcac1e0ebddfa289dcb1b3df43186c2d00cc7c73
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2024.dll|a1efc58f8d504020c1bebb675d6766653bd6b84030f507bc6a0d43a92dac0998
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2025.dll|fb2faff8d8cfae6e18ffb9bfc413a4bc3b227d47b5d7084ebe8c8061d2732255
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2026.dll|49f96c9aa4b8d5f7d2023825b24c0da2306689e40a4594a072bafe5d85a82d5f
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2027.dll|415cc8d9c050dec44c855651e32e1c0aeab3ff1e770708739a9d8546b816a1fa
+note=Batch check can use 2 or 3 Revit sessions at the same time: extra Revit windows open, each checks its share of the models (you can watch them work) and closes itself when done. All results come back into the same list, summary and saved results.
+note=Needs the setup once (loader v2.6.0).
