@@ -1,7 +1,9 @@
-version=1.16.1
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2023.dll|d93dd68501505607fae83f2c2878de64d457afd8f40d56681e1bb29de83e6d25
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2024.dll|fcabbb558ff3be238736363759b7827b7df2688456b7a9cc1e08e3b7d2a2dce4
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2025.dll|9620ca34372ee2a3b5e1f03672468b8bd4ad6ae1260c0840237349933e0233bd
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2026.dll|26098c4d01cc230dcb66d1d2554789a3d0b696342e0bb71e0de2753ebd6e1d39
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.16.1/MultiCheck_R2027.dll|5c4a9e04fa1923376c8a9c6eb4525d274d5514601391358200754a6f6a7f53db
-note=The Multi Check button now works with no model open (Revit start screen), so Batch check can be started without opening any model first. Needs the setup once (loader v2.5.0).
+version=1.17.0
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2023.dll|87b6e4cb7c0f1adf1e6af585c32f6c44b87d14623c7865c0e3c9f5e66ce7d26e
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2024.dll|e742307b5cf6ad9c6a431aaac91970e8ec5beaa943aa97e42690fe26da520976
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2025.dll|617324448ccbcdc3281dc6a3d65aa2ce917775ceeaf51422ec1fb78d99e81381
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2026.dll|24cd92eea5ad4438dcfa8ed60f47a17af330e70388cc133bc393f9e7fd694369
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.17.0/MultiCheck_R2027.dll|c51bbf47bbddef0c4a25599f2cbae20599e862987a1d1a9e2f59c477abda89b3
+note=Batch check: pick models from your ACC project tree (Desktop Connector folder), like Smart Linker – tick models or whole folders.
+note=Cloud models are opened from ACC (detached, never changed); online-only files are downloaded only to read their cloud ID, then the local copy is freed.
+note=Uses the same cloud-model index as Smart Linker; the refresh button re-reads Revit's cloud cache.
