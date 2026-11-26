@@ -3,7 +3,7 @@
 Release files for the **Multi Check** Revit add-in (Revit 2023–2027), part of I.H BIM Tools.
 Installed copies update themselves automatically from `latest.txt`.
 
-**Current version: v1.19.0**
+**Current version: v1.22.1**
 
 **Download the setup:** https://github.com/ibrahimhassansm-lgtm/MultiCheck-releases/raw/main/MultiCheck_Setup.exe
 

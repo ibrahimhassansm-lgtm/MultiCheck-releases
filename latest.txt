@@ -1,8 +1,8 @@
-version=1.19.0
-r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2023.dll|a5dedb2dff7e8c0695c4b871fcac1e0ebddfa289dcb1b3df43186c2d00cc7c73
-r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2024.dll|a1efc58f8d504020c1bebb675d6766653bd6b84030f507bc6a0d43a92dac0998
-r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2025.dll|fb2faff8d8cfae6e18ffb9bfc413a4bc3b227d47b5d7084ebe8c8061d2732255
-r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2026.dll|49f96c9aa4b8d5f7d2023825b24c0da2306689e40a4594a072bafe5d85a82d5f
-r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.19.0/MultiCheck_R2027.dll|415cc8d9c050dec44c855651e32e1c0aeab3ff1e770708739a9d8546b816a1fa
-note=Batch check can use 2 or 3 Revit sessions at the same time: extra Revit windows open, each checks its share of the models (you can watch them work) and closes itself when done. All results come back into the same list, summary and saved results.
-note=Needs the setup once (loader v2.6.0).
+version=1.22.1
+r2023=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.22.1/MultiCheck_R2023.dll|7378fb8d17198589d9dc4a1987f259c9dcc7aa45779ac3ee4d31dd9a12aca4ca
+r2024=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.22.1/MultiCheck_R2024.dll|95f51a09a749d434f47a27476c6da98a8f6e94d7d63968801bc5d65417589cf2
+r2025=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.22.1/MultiCheck_R2025.dll|2ef9ffc836ecec48b3fc6fef0954d52e20c9d646dc3ba02e97c0015fd985fbf0
+r2026=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.22.1/MultiCheck_R2026.dll|eabafb0b0f4b3bae12f6a60ae28b6df9c2538759fa955f3ddccbba9df02b0740
+r2027=https://raw.githubusercontent.com/ibrahimhassansm-lgtm/MultiCheck-releases/main/v1.22.1/MultiCheck_R2027.dll|3e63d6275a2409f29ddba650f9a9f091fb551ba30ca19adb09e9c8bb4eef140e
+note=Level Standards & Element Assignment: the element floor check is now on by default and needs no naming rules; it no longer shows "Rule not set". Older scans show Rescan Required (rescan once).
+note=Elements without a level that are hosted on a floor, ceiling or roof take the host's level.
